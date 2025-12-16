@@ -1,0 +1,36 @@
+.welcome-text {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-box {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+}
+
+.project-display {
+    display: flex;
+    position: relative;
+    border: 1px black solid;
+    top: 20px;
+    bottom: 20px;
+    padding: 20px;
+    width: 30svh;
+    margin: 0 auto;
+}
+
+.project-button {
+    display: flex;
+    position: relative;
+    top: 2px;
+    margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

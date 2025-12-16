@@ -4,12 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Directory</title>
+
+    <link rel="stylesheet" href="indexDesign.css">
+    <script src="indexSystems.js" defer></script>
 </head>
 <body>
-    <b>click this to go to my first project</b>
-    <button onclick="location.href='Libary/Website.html'">Open Project</button>
+    <b class="welcome-text">Welcome feel free to look at some of the projects I've done so far</b>
+
+    <input type="text" class="search-box" placeholder="Search projects...">
+    <ul>
+        <li id="searchArea">
+            <div id="project1" class="project-display">
+                <b>Username display</b>
+                <button class="project-button" onclick="location.href='Libary/Website.html'">Open Project</button>
+                
+            </div>
+            <div id="project2" class="project-display">
+                <b>searching a list</b>
+                <button class="project-button" onclick="location.href='Libary/Website.html'">Open Project</button>
+            </div>
+        </li>
+    </ul>
 </body>
 </html>
-
-<b>click this to go to my first project</b>
-<button id="directButton" class="primary-btn">Submit</button>
