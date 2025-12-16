@@ -1,4 +1,0 @@
-
-function Clear() {
-    alert("Clicked")
-}
