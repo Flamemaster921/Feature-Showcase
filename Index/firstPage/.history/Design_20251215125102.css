@@ -1,0 +1,43 @@
+.titleCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: auto;
+    color: pink;
+    
+    z-index: 2;
+}
+
+.primary-btn {
+    position: relative;
+    display: block;
+
+    left: 0%;
+    top: auto;
+    margin: 0 auto;
+
+    background-color: blue;
+    color: white;
+    z-index: 2;
+}
+
+.text-input{
+    position: relative;
+    display: block;
+
+    left: auto;
+    top: auto;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.color-bar {
+    display: flex;
+    position: fixed;
+    left: 50svh;
+    top : 0;
+    width: 5svh;
+    height: 30px;
+    background-color: red;
+    z-index: 1;
+}

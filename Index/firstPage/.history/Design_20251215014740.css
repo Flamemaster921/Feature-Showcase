@@ -1,0 +1,12 @@
+body {
+    color: pink;
+}
+
+.primary-btn {
+  background-color: blue;
+  color: white;
+
+  position: relative;
+  top: 20px;
+  left: 100px;
+}

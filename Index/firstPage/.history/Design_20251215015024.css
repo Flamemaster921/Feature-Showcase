@@ -1,0 +1,14 @@
+.titleCard {
+    display: block;
+    color: pink;
+    margin: 50 auto;
+}
+
+.primary-btn {
+  background-color: blue;
+  color: white;
+
+  position: relative;
+  top: 20px;
+  left: 100px;
+}
