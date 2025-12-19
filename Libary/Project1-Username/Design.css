@@ -4,8 +4,7 @@
     align-items: center;
     left: auto;
     color: pink;
-    
-    z-index: 2;
+    z-index: 1;
 }
 
 .primary-btn {
@@ -18,7 +17,7 @@
 
     background-color: blue;
     color: white;
-    z-index: 2;
+    z-index: 1;
 }
 
 .text-input{
@@ -28,16 +27,25 @@
     left: auto;
     top: auto;
     margin: 0 auto;
-    z-index: 2;
+    z-index: 1;
 }
 
 .color-bar {
     display: flex;
-    position: absolute;
-    left: 30svh;
-    top : 0;
-    width: 5svh;
-    height: 30px;
+    position: relative;
+    margin: 0 auto;
+    width: 1svh;
+    height: 10svh;
     background-color: red;
     z-index: 1;
+}
+
+.color-bar2 {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    width: 1svh;
+    height: 1svh;
+    background-color: black;
+    z-index: 0;
 }

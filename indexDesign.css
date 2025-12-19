@@ -9,17 +9,30 @@
     display: flex;
     position: relative;
     margin: 0 auto;
+    
+}
+.search-area {
+    display: grid;
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    padding: 2svh;
+    width: 40svh;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px
 }
 
 .project-display {
     display: flex;
     position: relative;
-    border: 1px black solid;
+    border: 2px black solid;
     top: 20px;
-    bottom: 20px;
-    padding: 20px;
-    width: 30svh;
-    margin: 0 auto;
+    bottom: 40px;
+    padding: 1svh;
+    width: 20svh;
+    margin: 2 auto;
+    box-sizing: border-box;
 }
 
 .project-button {
