@@ -3,33 +3,12 @@
     flex-direction: column;
     align-items: center;
     left: auto;
-    color: pink;
+    color: black;
     
     z-index: 2;
 }
 
-.primary-btn {
-    position: relative;
-    display: block;
 
-    left: 0%;
-    top: auto;
-    margin: 0 auto;
-
-    background-color: blue;
-    color: white;
-    z-index: 2;
-}
-
-.text-input{
-    position: relative;
-    display: block;
-
-    left: auto;
-    top: auto;
-    margin: 0 auto;
-    z-index: 2;
-}
 
 .color-bar {
     display: flex;
@@ -39,5 +18,53 @@
     width: 5svh;
     height: 30px;
     background-color: red;
+    z-index: 1;
+
+    transform: scaleX(-1);
+}
+
+.color-bar2 {
+    display: flex;
+    position: absolute;
+    left: 30svh;
+    top : 30svh;
+    width: 5svh;
+    height: 30px;
+    background-color: black;
+    z-index: 1;
+}
+
+
+
+.color-bar3 {
+    display: flex;
+    position: absolute;
+    left: 30svh;
+    top : 20svh;
+    width: 5svh;
+    height: 30px;
+    background-color: green;
+    z-index: 1;
+}
+
+.color-bar4 {
+    display: flex;
+    position: absolute;
+    left: 30svh;
+    top : 10svh;
+    width: 5svh;
+    height: 30px;
+    background-color: orange;
+    z-index: 1;
+}
+
+.color-bar5 {
+    display: flex;
+    position: absolute;
+    left: 30svh;
+    top : 35svh;
+    width: 5svh;
+    height: 30px;
+    background-color: blue;
     z-index: 1;
 }
